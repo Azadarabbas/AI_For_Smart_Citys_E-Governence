@@ -14,7 +14,11 @@ SECRET_KEY = 'm+1edl5m-5@u9u!b8-=4-4mq&o1%agco2xpl8c!7sn7!eowjk#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "ai-for-smart-citys-e-governence.onrender.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
