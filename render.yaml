@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-for-smart-citys
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn the_influence_of_artificial_intelligence.wsgi:application"
